@@ -316,15 +316,15 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1602536224) then  
-var = 'مبرمج السورس
+var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1227722692) then
 var = 'مبرمج السورس²'
 elseif tonumber(user_id) == tonumber(1572942385) then
-var = مطور السورس 
+var = 'مطور السورس' 
 elseif tonumber(user_id) == tonumber(SUDO) then
-var = 'المطور الاساسي'  
+var = 'المطور الاساسي'
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
-var = "المطور الاساسي²"  
+var = 'المطور الاساسي²'
 elseif tonumber(user_id) == tonumber(bot_id) then  
 var = 'البوت'
 elseif database:sismember(bot_id..'Sudo:User', user_id) then
@@ -13338,7 +13338,7 @@ else
 if result.status_.ID == "UserStatusEmpty" and result.profile_photo_ == false then
 send(msg.chat_id_, msg.id_,'[\n🇧🇱-𝒖𝒔𝒆𝒓   '..username..'\n 🇧🇱-𝒎𝒔𝒈𝒔  '..Msguser..'\n 🇧🇱-𝒔𝒕𝒂𝒕𝒔  '..Rutba(msg.sender_user_id_,msg.chat_id_)..'\n 🇧🇱-𝒊𝒅 '..msg.sender_user_id_..'\n🇧🇱- 𝗖𝗛  @Quiet5124day\n')
 else
-send(msg.chat_id_, msg.id_, '\n 🐊 الصوره ~⪼ ليس لديك صور في حسابك'..'[\n🇧🇱-𝒖𝒔𝒆𝒓  '..username..'\n 🇧🇱-𝒎𝒔𝒈𝒔  '..Msguser..'\n 🇧🇱-𝒊𝒅 '..msg.sender_user_id_..'\n🇧🇱- 𝗖𝗛 @Quiet5124day\n')
+send(msg.chat_id_, msg.id_, '\n 🐊 الصوره ~⪼ ليس لديك صور في حسابك'..'[\n🇧🇱-𝒖𝒔??𝒓  '..username..'\n 🇧🇱-𝒎𝒔𝒈𝒔  '..Msguser..'\n 🇧🇱-𝒊𝒅 '..msg.sender_user_id_..'\n🇧🇱- 𝗖𝗛 @Quiet5124day\n')
 end 
 end
 end
