@@ -1334,7 +1334,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسم مطورين السورس والمبرمجين' and DevSoFi(msg) then 
@@ -1479,7 +1479,7 @@ keyboard.inline_keyboard = {
 {{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》', url="t.me/Quiet5124day"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == '━┅┅┄⟞⟦᪣𝐅𝐎𝐑𝐄𝐕𝐄𝐑᪣⟧⟝┄┉┉━' and DevSoFi(msg) then
 local Text = [[ 
@@ -1535,7 +1535,7 @@ keyboard.inline_keyboard = {
 {{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》', url="t.me/Quiet5124day"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "ضع اسم للبوت" and DevSoFi(msg) then  
@@ -3219,7 +3219,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == "تيربو" then
@@ -4189,7 +4189,7 @@ keyboard.inline_keyboard = {
 {{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》 ', url="t.me/Quiet5124day"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '•═════•| ✯𝐹𝑂𝑅𝐸𝑉𝐸𝑅✯ |•═════•' then
 local Text = [[ 
@@ -4203,7 +4203,7 @@ keyboard.inline_keyboard = {
 {{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》', url="t.me/Quiet5124day"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/forevveeerrr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'العاب فورايفر' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
@@ -6613,7 +6613,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,' 🐺 لا تستطيع استخدام البوت \n ??  يرجى الاشتراك بالقناه اولا \n 🐺  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' 🐺 لا تستطيع استخدام البوت \n 🐺  يرجى الاشتراك بالقناه اولا \n 🐺  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -17074,7 +17074,7 @@ local Teext =[[
  🐺ضع عدد الاعضاء + العدد
  🐺ضع كليشه المطور
  🐺تفعيل/تعطيل الاذاعه
- 🐺تفعيل/تعطيل البوت الخدمي
+ ??تفعيل/تعطيل البوت الخدمي
  🐺تفعيل/تعطيل التواصل
  🐺تغير اسم البوت
  🐺اضف/مسح رد عام
