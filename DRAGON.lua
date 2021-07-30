@@ -3195,25 +3195,31 @@ end
 end
 end,nil)   
 end
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-local Text = [[
-
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'ياسورس'  then
+local Text =[[
 ╭𖤍━┅⟞⟦[᪣𝐅𝐎𝐑𝐄𝐕𝐄𝐑᪣](http://t.me/Quiet5124day)⟧⟝┉━𖤍╮
 
  [⟦𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧⟧](http://t.me/Quiet5124day)
 
 ╰𖤍━┅⟞⟦[᪣𝐅𝐎𝐑𝐄𝐕𝐄𝐑᪣](http://t.me/Quiet5124day)⟧⟝┉━𖤍╯
-
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ₁',url="t.me/wolf5124"},{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ²', url="t.me/Zoooooooooo0oooooooooooooooooooZ"}},
-{{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ³',url="t.me/UU_T_U_R_B_O"}},
-{{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》',url="t.me/Quiet5124day"}},
-{{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{
+{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ₁',url="https://t.me/wolf5124"},{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ²', url="https://t.me/Zoooooooooo0oooooooooooooooooooZ"},
+},
+{
+{text = 'ᴰᴱᵛᴱᴸᴼᴾᴱᴿ ³',url="https://t.me/UU_T_U_R_B_O"},
+},
+{
+{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》',url="https://t.me/Quiet5124day"},
+},
+{
+{text = 'اضف البوت الي مجموعتك' ,url="https://t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}, 
+},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/paaariiissss/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == "تيربو" then
@@ -15699,7 +15705,7 @@ Msᴀɢ ~ #msgs
 🇪🇬 - 𝄬 id . #id 𓃠
 🇪🇬 - 𝄬 gmas . #gmas 𓃠
 🇪🇬 - 𝄬 msgs . #msgs  𓃠
-🇪🇬 - 𝄬 𝗖𝗛 - ↝@Quiet5124day↜ 🐺
+??🇬 - 𝄬 𝗖𝗛 - ↝@Quiet5124day↜ 🐺
 ]],
 [[
 .𖣂 𝙪𝙨𝙚𝙧𝙣??𝙢𝙚 , #username  🖤 ↴
@@ -16741,7 +16747,7 @@ local Teext =[[
 قفل  ⌁  فتح ❲ الكـــل ❳
 ❲ بالتقيد ، بالطرد ، بالكتم ❳
 •═════•| ✯𝐹𝑂𝑅𝐸𝑉𝐸𝑅✯ |•═════•
- ??الروابط
+ 🐺الروابط
  🐺المعرف
  🐺التاك
  🐺الشارحه
