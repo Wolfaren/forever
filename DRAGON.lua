@@ -3216,21 +3216,6 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wolfaren512&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
-local Text = [[
- 𖠪 اهلا بك في سورس فورايفر الجمدان 𖠪
- 𖠪 عايز بوت بأسعار منسبه وبوت مميز كلمني 𖠪  
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = ' 𝗪𝗢𝗟𝗙𝗔𝗥𝗘𝗡',url="t.me/wolf5124"},{{text = '𝗧𝗨𝗥𝗕𝗢',url="t.me/UU_T_U_R_B_O"}},
-{{text = '《𝙨𝙤𝙪𝙧𝙘𝙚 𝙛𝙤𝙧𝙚𝙫𝙚𝙧》 ', url="t.me/Quiet5124day"}},
-{{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/beborty/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-
 if text == "تيربو" then
 local TEXT_SUD = database:get(bot_id..'Tshake:TEXT_SUDO')
 if TEXT_SUDO then 
@@ -3242,12 +3227,8 @@ if taha.photos_[0] then
 local Name = 'تيربو للتواصل معه اتبع الازرارا ⇧\n['..result.first_name_..'](t.me/UU_T_U_R_B_O)\n'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{
-{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_},
-},
-{
-{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"},
-},
+{{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_}},
+{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Name)..'&photo='..taha.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -3270,12 +3251,8 @@ if taha.photos_[0] then
 local Name = 'ولفارين للتواصل معه اتبع الازرارا ⇧\n['..result.first_name_..'](t.me/wolf5124)\n'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{
-{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_},
-},
-{
-{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"},
-},
+{{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_}},
+{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Name)..'&photo='..taha.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -3298,12 +3275,8 @@ if taha.photos_[0] then
 local Name = 'بلال للتواصل معه اتبع الازرارا ⇧\n['..result.first_name_..'](t.me/BelalElshayal)\n'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{
-{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_},
-},
-{
-{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"},
-},
+{{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_}},
+{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Name)..'&photo='..taha.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -7644,7 +7617,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,' 🐺 لا تستطيع استخدام البوت \n 🐺  يرجى الاشتراك بالقناه اولا \n 🐺  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' 🐺 لا تستطيع استخدام البوت \n 🐺  يرجى الاشتراك بالقناه اولا \n ??  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
